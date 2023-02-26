@@ -32,7 +32,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
     
     cy.clock()
     
-    cy.get('#open-text-area').type(longText, { delay: 0 })
+    cy.get('#open-text-area').type(longText, { delay: 0})
     cy.get('#firstName').type('Flavio')
     cy.get('#lastName').type('Miller')
     cy.get('#email').type('flaviomiller,teste.com')
